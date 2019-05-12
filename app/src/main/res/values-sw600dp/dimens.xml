@@ -1,0 +1,27 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+
+
+    <dimen name="text_title_size">25dp</dimen>
+
+    <dimen name="text_header1">28sp</dimen>
+    <dimen name="text_header2">23sp</dimen>
+    <dimen name="text_header3">19sp</dimen>
+    <dimen name="text_normal">15sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+
+    <dimen name="choose_partner_width">160dp</dimen>
+    <dimen name="choose_partner_height">120dp</dimen>
+
+    <dimen name="button_size_large">72dp</dimen>
+    <dimen name="button_size_medium">48dp</dimen>
+    <dimen name="button_size_small">28dp</dimen>
+
+    <dimen name="app_image_width">120dp</dimen>
+    <dimen name="app_image_height">120dp</dimen>
+
+    <dimen name="nav_width">400dp</dimen>
+</resources>

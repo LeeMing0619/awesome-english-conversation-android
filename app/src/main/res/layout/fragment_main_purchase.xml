@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clickable="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_margin="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/text_header2"
+                android:text="@string/text_purchase1"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/section_purchase"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:maxLines="2"
+                        android:textSize="@dimen/text_header3"
+                        android:text="Purchase:\nRemove ads"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/black"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_toStartOf="@+id/ui_btn_purchase" />
+                    <RelativeLayout
+                        android:id="@+id/ui_btn_purchase"
+                        android:gravity="center_vertical"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        android:background="#67BFEF"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true">
+                        <com.convoenglishllc.expression.component.AutoResizeTextView
+                            android:id="@+id/ui_price"
+                            android:layout_margin="3dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="100sp"
+                            android:text="$1.99"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:layout_toStartOf="@+id/imageView1" />
+                        <ImageView
+                            android:layout_margin="3dp"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@mipmap/ic_shopping"
+                            android:layout_alignParentEnd="true"
+                            android:id="@+id/imageView1" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:maxLines="3"
+                        android:textSize="@dimen/text_header3"
+                        android:text="Purchase:\nRemove ads &amp; Donate $1.00"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/black"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_toStartOf="@+id/ui_btn_purchase1" />
+                    <RelativeLayout
+                        android:id="@+id/ui_btn_purchase1"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:padding="10dp"
+                        android:background="#67BFEF"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true">
+                        <com.convoenglishllc.expression.component.AutoResizeTextView
+                            android:id="@+id/ui_price1"
+                            android:layout_margin="3dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="100sp"
+                            android:text="$2.99"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:layout_toStartOf="@+id/imageView2" />
+                        <ImageView
+                            android:layout_margin="3dp"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@mipmap/ic_shopping"
+                            android:layout_alignParentEnd="true"
+                            android:id="@+id/imageView2" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:textSize="@dimen/text_header3"
+                        android:text="Purchase:\nRemove ads &amp; Donate $3.00"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/black"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_toStartOf="@+id/ui_btn_purchase3" />
+                    <RelativeLayout
+                        android:id="@+id/ui_btn_purchase3"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        android:background="#67BFEF"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true">
+                        <com.convoenglishllc.expression.component.AutoResizeTextView
+                            android:id="@+id/ui_price3"
+                            android:layout_margin="3dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="100sp"
+                            android:text="$4.99"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:layout_toStartOf="@+id/imageView3" />
+                        <ImageView
+                            android:layout_margin="3dp"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@mipmap/ic_shopping"
+                            android:layout_alignParentEnd="true"
+                            android:id="@+id/imageView3" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/text_header2"
+                    android:text="@string/text_purchase2"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ui_purchase_status"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="gone">
+
+                <com.convoenglishllc.expression.component.AutoResizeTextView
+                    android:id="@+id/ui_purchased"
+                    android:padding="5dp"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:textSize="100sp"
+                    android:text="Purchased"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"/>
+                <ImageView
+                    android:padding="5dp"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@mipmap/ic_shopping" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

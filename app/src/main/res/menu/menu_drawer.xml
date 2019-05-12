@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:icon="@mipmap/ic_nav_home"
+        android:title="Home"/>
+    <item android:id="@+id/nav_bookmark" android:icon="@android:drawable/star_on"
+        android:title="Bookmark" />
+    <item android:id="@+id/nav_unlock" android:icon="@drawable/lock"
+        android:title="Unlock All Lessons" />
+    <item android:id="@+id/nav_offline" android:icon="@drawable/ic_nav_offline"
+        android:title="Offline Mode" />
+    <item android:id="@+id/nav_purchase" android:icon="@mipmap/ic_nav_purchase"
+        android:title="Remove ads" />
+    <item android:id="@+id/nav_apps" android:icon="@drawable/ic_nav_recommended"
+        android:title="Recommended Apps" />
+    <item android:id="@+id/nav_contact" android:icon="@mipmap/ic_nav_contact"
+        android:title="support@talkenglish.com" />
+    <item android:id="@+id/nav_website" android:icon="@drawable/ic_nav_site"
+        android:title="Visit Website" />
+</menu>

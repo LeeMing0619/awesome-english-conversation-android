@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.convoenglishllc.expression.component.AutoResizeTextView
+            android:id="@+id/ui_partner_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:maxLines="2"
+            android:textColor="#000000"
+            android:textSize="@dimen/choose_partner_title_size"
+            android:text="Choose Practice Partner"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/ui_first_panel">
+                <ImageView
+                    android:layout_width="@dimen/choose_partner_width"
+                    android:layout_height="@dimen/choose_partner_height"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/ui_first_image" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_header3"
+                    android:textStyle="bold"
+                    android:text="GREG"
+                    android:id="@+id/ui_first_name"
+                    android:layout_below="@+id/ui_first_image"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp" />
+                <ImageView
+                    android:layout_width="@dimen/button_size_small"
+                    android:layout_height="@dimen/button_size_small"
+                    android:src="@mipmap/ic_checked"
+                    android:id="@+id/ui_first_check"
+                    android:layout_below="@+id/ui_first_name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="7dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/ui_second_panel">
+                <ImageView
+                    android:layout_width="@dimen/choose_partner_width"
+                    android:layout_height="@dimen/choose_partner_height"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/ui_second_image" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_header3"
+                    android:textStyle="bold"
+                    android:text="STEVE"
+                    android:id="@+id/ui_second_name"
+                    android:layout_below="@+id/ui_second_image"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp" />
+                <ImageView
+                    android:layout_width="@dimen/button_size_small"
+                    android:layout_height="@dimen/button_size_small"
+                    android:src="@mipmap/ic_checked"
+                    android:id="@+id/ui_second_check"
+                    android:layout_below="@+id/ui_second_name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="7dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>

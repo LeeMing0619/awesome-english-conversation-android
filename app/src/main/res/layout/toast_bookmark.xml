@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:id="@+id/custom_toast_layout_id"
+    android:orientation="horizontal" android:padding="10dp"
+    android:layout_height="wrap_content" android:background="@color/mediumBlue">
+    <ImageView android:layout_height="@dimen/button_size_medium"
+        android:layout_width="@dimen/button_size_medium" android:id="@+id/imageView1"
+        android:src="@mipmap/ic_bookmark" android:layout_gravity="center_vertical"/>
+    <LinearLayout android:layout_width="wrap_content"
+        android:id="@+id/linearLayout1" android:orientation="vertical"
+        android:layout_height="wrap_content" android:paddingStart="15dp"
+        android:layout_gravity="center_vertical">
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView1"
+            android:layout_width="wrap_content" android:textColor="#ffffff"
+            android:textSize="@dimen/text_header2" android:text="Bookmarked successfully."/>
+    </LinearLayout>
+</LinearLayout>

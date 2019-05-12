@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    app:mrl_rippleOverlay="true"
+    app:mrl_rippleColor="@color/mediumBlue"
+    app:mrl_rippleHover="true"
+    app:mrl_rippleDuration="350"
+    app:mrl_rippleFadeDuration="75"
+    app:mrl_rippleBackground="@android:color/transparent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout android:id="@+id/ll_item_image"
+            android:layout_weight="3.5"
+            android:padding="1dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/ui_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/expression"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorBlue"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/ui_title"
+                    android:gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:paddingLeft="10dp"
+                    android:background="@color/colorBlue"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:maxLines="2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_small"
+                    android:fontFamily="@font/open_sans_semibold"
+                    android:text="Category1"/>
+                <ImageView
+                    android:id="@+id/iv_lock_image"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center|center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/lock"
+                    android:contentDescription="TODO"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</com.balysv.materialripple.MaterialRippleLayout>

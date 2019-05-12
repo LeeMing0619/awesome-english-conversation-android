@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textTitle">#FFFFFF</color>
+    <color name="textFg">#000000</color>
+    <color name="textBg">#FFFFFF</color>
+    <!--
+        dark blue - r: 8, g: 102, b: 169
+
+        medium blue - r: 97, g: 159, b: 214
+
+        light blue - r: 192, g: 217, b: 239
+        -->
+    <color name="darkBlue">#0866A9</color>
+    <color name="mediumBlue">#619FD6</color>
+    <color name="lightBlue">#C0D9EF</color>
+    <color name="my_action_bar_bg">#ff9ebe5b</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="colorPrimary">#498CDE</color>
+    <color name="colorPrimaryDark">#498CDE</color>
+    <color name="colorPrimaryDark1">#727272</color>
+    <color name="colorAccent">#498CDE</color>
+    <color name="colortab">#232227</color>
+    <color name="colorBottomTab">#222126</color>
+    <color name="colorYellow">#FFF500</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorOuter">#6D6D6D</color>
+    <color name="colorInside">#FFFFFF</color>
+    <color name="colorSetting">#154286</color>
+    <color name="colorCenter">#1C61AA</color>
+    <color name="colorText">#30b70b</color>//#007200
+    <color name="colorCartText">#007200</color>
+    <color name="colorCartText1">#008200</color>
+    <color name="colorTextRed">#f44336</color>
+    <color name="colorRippleDark">#AAA</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlackShade">#353535</color>
+    <color name="colorblackSoft">#727272</color>
+    <color name="colorblackSoft1">#929292</color>
+    <color name="colorBlackfaint0">#D4D4D4</color>
+    <color name="colorBlackfaint">#c8c8c8</color>
+    <color name="colorBlackfaint1">#F9F9F9</color>
+    <color name="colorRed">#ea4343</color>
+    <color name="colorBlue">#5588EE</color>
+    <color name="colorTransparent">#0000</color>
+    <color name="red_transparent">#80FF0000</color>
+    <color name="blue_transparent">#80498CDE</color>/
+    <color name="coloreBookmark">#CACACA</color>
+    <color name="colorDownload">#67BFEF</color>
+
+    <color name="colorCancelBooking">#ea4343</color>
+    <color name="colorDarkRed">#D80027</color>
+    <color name="colorDarkSky">#1C61AA</color>
+    <color name="gradient_start">#6D6D6D</color>
+    <color name="gradient_end">#353535</color>
+    <color name="bg_row_background">#fa315b</color>
+    <color name="color_tab">#fff</color>
+    <color name="colorBcakgroundDays">#E9E1CE</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+    <color name="bg_screen5">#566B30</color>
+
+    <color name="dot_dark_screen">#d1395c</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#44000000</color>
+    <color name="dot_dark_screen2">#44000000</color>
+    <color name="dot_dark_screen3">#44000000</color>
+    <color name="dot_dark_screen4">#44000000</color>
+    <color name="dot_dark_screen5">#44000000</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#FFFFFF</color>
+    <color name="dot_light_screen2">#FFFFFF</color>
+    <color name="dot_light_screen3">#FFFFFF</color>
+    <color name="dot_light_screen4">#FFFFFF</color>
+    <color name="dot_light_screen5">#FFFFFF</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+
+    <!--filter-->
+
+    <color name="colorFilter">#000000</color>
+    <color name="colorFilterSelected">#f44336</color>
+
+    <!--ccavenue-->
+
+    <color name="colorBrown">#AA70</color>
+    <color name="colorGreenShade">#77D96E</color>
+    <color name="colorBrownDark">#EB6D6E</color>
+</resources>

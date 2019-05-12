@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frm_play_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false">
+    <LinearLayout android:id="@+id/ll_item_image"
+        android:layout_weight="3.5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:layout_marginEnd="5dip">
+        <ImageView
+            android:id="@+id/ui_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/expression"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="6.5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        <com.convoenglishllc.expression.component.AutoResizeTextView
+            android:id="@+id/ui_category"
+            android:gravity="bottom"
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:textSize="@dimen/text_header2"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:visibility="invisible"/>
+        <com.convoenglishllc.expression.component.AutoResizeTextView
+            android:id="@+id/ui_title"
+            android:gravity="top"
+            android:layout_weight="5"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:maxLines="2"
+            android:textSize="@dimen/text_header2"
+            android:fontFamily="@font/open_sans_semibold"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:text="Long Title Long Title Long Title Long Title Long Title "
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+</LinearLayout>

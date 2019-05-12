@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Start recording"
+                android:textSize="@dimen/text_normal"
+                android:textAlignment="gravity"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/ui_record_status" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center">
+            <at.markushi.ui.CircleButton
+                android:id="@+id/ui_record_start"
+                android:layout_width="@dimen/button_size_large"
+                android:layout_height="@dimen/button_size_large"
+                android:src="@drawable/ic_record_start"
+                app:cb_color="@color/darkBlue"
+                app:cb_pressedRingWidth="5dip"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center">
+            <at.markushi.ui.CircleButton
+                android:id="@+id/ui_record_list"
+                android:layout_width="@dimen/button_size_medium"
+                android:layout_height="@dimen/button_size_medium"
+                android:src="@drawable/ic_record_list"
+                app:cb_color="@color/darkBlue"
+                app:cb_pressedRingWidth="3dip"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+    </LinearLayout>

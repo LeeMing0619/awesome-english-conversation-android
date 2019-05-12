@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Duplication of "container_title_top.xml"
+-->
+<com.balysv.materialripple.MaterialRippleLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dip"
+    app:mrl_rippleOverlay="true"
+    app:mrl_rippleColor="@color/mediumBlue"
+    app:mrl_rippleHover="true"
+    app:mrl_rippleDuration="350"
+    app:mrl_rippleFadeDuration="75"
+    app:mrl_rippleBackground="@android:color/transparent">
+    <LinearLayout
+        android:id="@+id/frm_play_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout android:id="@+id/ll_item_image"
+            android:layout_weight="3.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_marginEnd="5dip">
+            <ImageView
+                android:id="@+id/ui_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/expression"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="6.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <com.convoenglishllc.expression.component.AutoResizeTextView
+                android:id="@+id/ui_category"
+                android:gravity="bottom"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:textSize="@dimen/text_header2"
+                android:maxLines="1"
+                android:ellipsize="end" />
+            <com.convoenglishllc.expression.component.AutoResizeTextView
+                android:id="@+id/ui_title"
+                android:gravity="top"
+                android:layout_weight="5"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:maxLines="2"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textSize="@dimen/text_header2"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:text="Long Title Long Title Long Title Long Title Long Title "/>
+        </LinearLayout>
+    </LinearLayout>
+</com.balysv.materialripple.MaterialRippleLayout>

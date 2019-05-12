@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/play_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp">
+        <at.markushi.ui.CircleButton
+            android:id="@+id/ui_play"
+            android:layout_width="@dimen/button_size_medium"
+            android:layout_height="@dimen/button_size_medium"
+            android:src="@drawable/ic_action_audio_play"
+            app:cb_color="@color/darkBlue"
+            app:cb_pressedRingWidth="3dip"
+            android:gravity="center_horizontal"/>
+        <SeekBar
+            android:id="@+id/ui_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/ui_play"
+            android:layout_toStartOf="@+id/ui_current_duration"
+            android:thumb="@drawable/seek_ball"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/ui_current_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_normal"
+            android:text="00:00"
+            android:textColor="@color/colorWhite"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

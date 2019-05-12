@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp">
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/container_title_left"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/dialog"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/player"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:padding="3dp">
+            <include layout="@layout/container_dialog" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/player"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBottomTab">
+            <include layout="@layout/container_play_panel"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
